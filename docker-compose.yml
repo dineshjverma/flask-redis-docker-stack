@@ -1,7 +1,7 @@
  version: "3.9"
 services:
   web:
-    image: web
+    image: docker.io/dineshverma877/flask:flask
     build: .
     ports:
       - "8000:5000"
